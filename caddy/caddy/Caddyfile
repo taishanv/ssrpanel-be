@@ -1,7 +1,10 @@
-domin.com 
+http://xx.xx {
+redir https://xx.xx{url}
+}
+xx.xx
 {
   root /srv/www
-  tls youremail
+  tls x@gmail.com
   proxy /panda v2ray:990 {
     websocket
     header_upstream -Origin
